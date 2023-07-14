@@ -8,3 +8,40 @@
 .smile{
     border-radius: 50%;
 }
+
+/*Products CSS  */
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.products{
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.product-description{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-img-top{
+    height: 15rem;
+}
+.product-container{
+    position:absolute;
+
+
+}
+.milan{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*Products css end  */
