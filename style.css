@@ -1,12 +1,31 @@
-.row{
+.ish{
     margin-left: 50px;
+    margin-top: 120px;
+    flex-wrap: wrap;
 }
 .choose{
     margin-bottom: 30px;
+    margin-top: 70px;
     margin-left: 50px;
+    font-size: 60px;
+    text-align: center;
 }
 .smile{
     border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin-left: 30%;
+}
+.textchange h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.textchange p{
+    font-size: 20px;
+    text-align: center;
 }
 
 /*Products CSS  */
@@ -32,7 +51,7 @@
     height: 15rem;
 }
 .product-container{
-width: 100vw;
+    width: 100%;
 }
 .milan{
     display: flex;
@@ -43,3 +62,24 @@ width: 100vw;
     height: 100vh;
 }
 /*Products css end  */
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    bottom: 40%;
+    left: 26%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+.carousel-content h1{
+    font-size: 80px;
+}
+.carousel-content p{
+    font-size: 20px;
+    text-align: left;
+}
