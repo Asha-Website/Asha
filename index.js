@@ -6,7 +6,7 @@ const tiltEffectSettings = {
     easing: "cubic-bezier(.03,.98,.52,.99)" // easing (transition-timing-function) of the enter/exit transition
   };
   
-  const cards = document.querySelectorAll(".card");
+  const cards = document.querySelectorAll(".cardnew");
   
   cards.forEach(card => {
     card.addEventListener("mouseenter", cardMouseEnter);
