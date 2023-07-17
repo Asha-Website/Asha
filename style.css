@@ -1,3 +1,6 @@
+.milanconatiner{
+    margin-left: 0;
+}
 .ish{
     margin-left: 50px;
     margin-top: 120px;
@@ -50,21 +53,18 @@
 .card-img-top{
     height: 15rem;
 }
-.product-container{
-    width: 100%;
-}
 .milan{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 /*Products css end  */
 
 .carousel-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -84,66 +84,89 @@
     text-align: left;
 }
 
-/* individual products CSS */
+
+
+
+
 .pro-container{
-     display: flex;
-     justify-content:center;
-     height: 100vh;
-     align-items:center;
-     background: whitesmoke;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    align-items:center;
+    background: whitesmoke;
 
 
 }
 .pro-card{
-    height: 500px;
-    margin: 50px;
-    box-shadow:5px 5px 20px black ;
-    overflow: hidden;
+   height: 500px;
+   margin: 50px;
+   box-shadow:5px 5px 20px black ;
+   overflow: hidden;
 }
 .img{
-    height: 500px;
-    width: 350px;
-    border-radius: 3px;
-    transition: .5s;
+   height: 500px;
+   width: 350px;
+   border-radius: 3px;
+   transition: .5s;
 }
 .intro{
-    height: 70px;
-    width: 350px;
-    padding: 6px;
-    box-sizing: border-box;
-    position: absolute;
-    background:rgb(27,27,27,.5) ;
-    color: white;
-    bottom: 240px;
-    transition: .5s;
+   height: 70px;
+   width: 350px;
+   padding: 6px;
+   box-sizing: border-box;
+   position: absolute;
+   background:rgb(27,27,27,.5) ;
+   color: white;
+   bottom: 240px;
+   transition: .5s;
 
 }
 .pro-h1{
-    margin: 10px;
-    font-size: 40px;
+   margin: 10px;
+   font-size: 40px;
 }
 .intro p{
-   font-size: 20px;
-   margin: 20px;
-   visibility: hidden;
-   opacity: 0;
+  font-size: 20px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
 }
 .intro span{
-    font-weight: bold;
+   font-weight: bold;
 }
 .pro-card:hover{
-    cursor: pointer;
+   cursor: pointer;
 }
 .pro-card:hover .intro{
-    height: 220px;
-    bottom: 240px;
-    background: black;
+   height: 220px;
+   bottom: 240px;
+   background: black;
 
 }
 .pro-card:hover p{
-    opacity: 1;
-    visibility: visible;
+   opacity: 1;
+   visibility: visible;
 }
 .pro-card:hover img{
-    transform: scale(1.1) rotate(-3deg);
+   transform: scale(1.1) rotate(-3deg);
+}
+.product-buttons{
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.price-text{
+    font-size: 20px;
+}
+.paisa{
+    font-weight: bold;
+    font-size: 25px;
+}
+.reviews{
+    flex-direction: column;
+    margin-top: 15%;
+    gap: 35px;
+    text-align: center;
+}
+.review-text{
+    font-size: 30px;
 }
