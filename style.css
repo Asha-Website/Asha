@@ -134,7 +134,9 @@
     flex-wrap: wrap;
     justify-content:center;
     align-items:center;
-    background: whitesmoke;
+}
+.bgtry1{
+    background-image: url('./Blind Products Photos/bgtry2.jpeg');
 }
 .pro-card{
     width: 360px;
@@ -142,6 +144,8 @@
    margin: 50px;
    box-shadow:5px 5px 20px black ;
    overflow: hidden;
+   border-radius: 7%;
+   opacity: .85;
 }
 .intro{
    height: 90px;
@@ -169,6 +173,7 @@
 }
 .pro-card:hover{
    cursor: pointer;
+   opacity: 1;
 }
 .pro-card:hover .intro{
    height: 220px;
