@@ -9,7 +9,7 @@
     align-items: center;
 }
 /*Products css end  */
-@media(min-width:1200px) and (max-width:1500px){
+@media(min-width:1200px) and (max-width:1700px){
     .carousel-content {
         display: flex;
         flex-wrap: wrap;
