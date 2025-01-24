@@ -134,7 +134,7 @@ The ASHA project is a comprehensive and accessible web-based platform designed t
 ---
 
 ## Credits
-- Developed by **Milan Agarwal** and contributors.
+- Developed by **Milan Agarwal** , **Nishad Kookana** and **Ishita Gera**.
 - Special thanks to the community for feedback and support.
 
 ---
